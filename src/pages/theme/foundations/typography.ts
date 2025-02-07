@@ -86,6 +86,34 @@ const typography = {
     fontWeight: 400,
     lineHeight: { base: '32px' },
   },
+
+  custom_small: {
+    fontFamily: 'Bacalisties',
+    fontSize: { base: '12px' },
+    fontWeight: 400,
+    lineHeight: { base: '32px' },
+  },
+
+  custom_medium: {
+    fontFamily: 'Bacalisties',
+    fontSize: { base: '18px' },
+    fontWeight: 400,
+    lineHeight: { base: '32px' },
+  },
+
+  custom_large: {
+    fontFamily: 'Bacalisties',
+    fontSize: { base: '24px' },
+    fontWeight: 400,
+    lineHeight: { base: '32px' },
+  },
+
+  custom_xlarge: {
+    fontFamily: 'Bacalisties',
+    fontSize: { base: '60px' },
+    fontWeight: 400,
+    lineHeight: { base: '60px' },
+  }
 }
 
 export default typography
