@@ -7,6 +7,7 @@ import fonts from './foundations/fonts'
 
 import Header from './components/header'
 import SaveTheDate from './components/save-the-date'
+import Divider from './components/divider'
 import Global from './global'
 
 const theme = extendTheme({
@@ -16,6 +17,7 @@ const theme = extendTheme({
     Global,
     Header,
     SaveTheDate,
+    Divider,
   },
 })
 
