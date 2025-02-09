@@ -10,7 +10,7 @@ const colors = {
   neutral: '#F2EDED',
 
   //Seasonal color
-  primary100: '#8B5FBF',
+  primary100: '#ffd700',
   primary200: '#61398F',
   primary300: '#FFFFFF',
   accent100: '#D6C6E1',

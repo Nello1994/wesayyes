@@ -1,21 +1,16 @@
 import PropTypes from 'prop-types'
-import AboutMe from '../components/about-me'
+import SaveTheDate from '../components/save-the-date/index'
 
 const Home = (props) => {
-  const { isHome } = props
   return (
-    isHome && (
-      <>
-        <AboutMe />
-      </>
-    )
+    <>
+    <SaveTheDate></SaveTheDate>
+    </>
   )
 }
 
-Home.propTypes = {
-  isHome: PropTypes.string,
-}
+Home.propTypes = {}
 
-Home.displayName = 'Home'
+//Home.displayName = 'Home'
 
 export default Home
