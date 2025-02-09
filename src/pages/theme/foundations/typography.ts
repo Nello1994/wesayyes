@@ -103,17 +103,10 @@ const typography = {
 
   custom_large: {
     fontFamily: 'Bacalisties',
-    fontSize: { base: '24px' },
+    fontSize: { base: '54px' },
     fontWeight: 400,
     lineHeight: { base: '32px' },
   },
-
-  custom_xlarge: {
-    fontFamily: 'Bacalisties',
-    fontSize: { base: '60px' },
-    fontWeight: 400,
-    lineHeight: { base: '60px' },
-  }
 }
 
 export default typography
