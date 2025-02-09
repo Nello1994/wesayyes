@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types'
-import AboutMe from '../components/about-me'
+import SaveTheDate from '../components/save-the-date/index'
+import Divider from '../components/divider'
 
 const Home = (props) => {
   const { isHome } = props
   return (
-    isHome && (
-      <>
-        <AboutMe />
-      </>
-    )
+    <>
+      <SaveTheDate></SaveTheDate>
+      <Divider />
+    </>
   )
 }
 
