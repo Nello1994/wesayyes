@@ -3,7 +3,6 @@ import SaveTheDate from '../components/save-the-date/index'
 import Divider from '../components/divider'
 
 const Home = (props) => {
-  const { isHome } = props
   return (
     <>
       <SaveTheDate></SaveTheDate>
@@ -12,10 +11,8 @@ const Home = (props) => {
   )
 }
 
-Home.propTypes = {
-  isHome: PropTypes.string,
-}
+Home.propTypes = {}
 
-Home.displayName = 'Home'
+//Home.displayName = 'Home'
 
 export default Home
