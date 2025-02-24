@@ -4,19 +4,41 @@ import Divider from '../components/divider'
 import ContactForm from '../components/contact-form/ContactForm'
 import MapComponent from '../components/map-component/MapComponent'
 
+import { Box } from '@chakra-ui/react'
+import { useEffect, useState } from 'react'
+
 const Home = (props) => {
+  const [headerHeight, setHeaderHeight] = useState(0)
+
+  useEffect(() => {
+    const headerElement = document.querySelector('header')
+    if (headerElement) {
+      setHeaderHeight(headerElement.offsetHeight)
+    }
+
+    const handleResize = () => {
+      if (headerElement) {
+        setHeaderHeight(headerElement.offsetHeight)
+      }
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
   return (
-    <>
-      <SaveTheDate></SaveTheDate>
+    <Box position="relative" w="100%" top={`${headerHeight}px`}>
+      <SaveTheDate />
       <Divider />
-      <ContactForm></ContactForm>
-      <MapComponent></MapComponent>
-    </>
+      <ContactForm />
+      <MapComponent />
+    </Box>
   )
 }
 
 Home.propTypes = {}
-
-//Home.displayName = 'Home'
 
 export default Home

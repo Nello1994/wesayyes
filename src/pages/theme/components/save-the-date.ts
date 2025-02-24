@@ -42,10 +42,10 @@ export default {
       h: '100%',
       objectFit: 'cover',
       borderRadius: '160px',
+      transition: {lg: '.5s ease-in-out'},
 
       _hover: {
         transform: {lg:'scale(1.1)'},
-        transition: {lg: '.5s ease-in-out'}
       }
     },
   },

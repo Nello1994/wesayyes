@@ -6,7 +6,7 @@ import { useMultiStyleConfig, Text, Box, Flex, VStack, Image } from '@chakra-ui/
 
 const ContactForm = () => {
     return (
-        <Box>
+        <Box id="partecipa">
         <Text>Partecipa</Text>
             <form action="https://formsubmit.co/borrelli.nello94@gmail.com" method="POST">
                 <input type="hidden" name="_captcha" value="false" />
