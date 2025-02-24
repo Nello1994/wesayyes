@@ -1,13 +1,16 @@
-import { textDecoration } from '@chakra-ui/react'
+import { position, textDecoration } from '@chakra-ui/react'
 import { Typ, Colors } from '../utils'
-import { color, transform } from 'framer-motion'
 
 export default {
   baseStyle: {
     headerWrapper: {
         w: '100%',
-        padding: {base: '32px', lg: '40px 80px'},
+        padding: {base: '16px 32px', lg: '24px 80px'},
         justifyContent: {base:'space-between', lg: 'unset'},
+        position: 'fixed',
+        top: '0',
+        zIndex: '1',
+        bg: Colors.white,
     },
 
     linkContainer: {

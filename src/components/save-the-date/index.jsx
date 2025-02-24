@@ -35,8 +35,9 @@ const SaveTheDate = (props) => {
     <HStack {...style.stack} height={stackHeight}>
       <Box {...style.textWrp}>
         <Text {...style.title}>Save the date</Text>
+        <Text {...style.subtitle}>12 Settembre 2025</Text>
       </Box>
-      <Flex className='hideScrollBar' {...style.mediaWrp}>
+      <Flex className='hideScrollBar' {...style.mediaWrp}  css={{'&::-webkit-scrollbar': { display: 'none' },}}>
       {mediaBoxes.map((item) => (
         <Box key={item} {...style.mediaBox}>
           <Image src={imageUrls[item]} alt={`image-${item}`} {...style.image} />

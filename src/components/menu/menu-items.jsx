@@ -23,9 +23,9 @@ const MenuItems = () => {
         <Flex {...style.itemsWrapper}>
             {menuItems.map((item, index) => (
                 <Button
-                key={index} 
-                as={Link} 
-                to={item.href} 
+                key={index}
+                as={Link}
+                href={item.href}
                 {...style.menuItem}
                 >
                 {item.label}
@@ -34,7 +34,7 @@ const MenuItems = () => {
         </Flex>
         <Button
         as={Link} 
-        to='#mappa' 
+        href='#map' 
         {...style.menuItem}
         >
         Mappa  
