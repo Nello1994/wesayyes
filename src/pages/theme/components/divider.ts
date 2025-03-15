@@ -2,14 +2,14 @@ export default {
   baseStyle: {
     divider: {
       w: '100%',
-      py: { base: '40px'},
+      py: { base: '24px'/* , lg: '144px'  */},
       backgroundColor: '#FFEEBB',
       display: 'flex',
       justifyContent: 'center',
     },
     img: {
       borderRadius: '50%',
-      w: { base: '100px'},
+      w: { base: '175px', lg: '200px' },
     },
   },
   variants: {},

@@ -3,6 +3,8 @@ import SaveTheDate from '../components/save-the-date/index'
 import Divider from '../components/divider'
 import ContactForm from '../components/contact-form/ContactForm'
 import MapComponent from '../components/map-component/MapComponent'
+import OurStory from '../components/our-story/OurStory'
+import ScrollingText from '../components/scrolling-text/scrollingText'
 
 import { Box } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
@@ -32,6 +34,8 @@ const Home = (props) => {
   return (
     <Box position="relative" w="100%" top={`${headerHeight}px`}>
       <SaveTheDate />
+      <ScrollingText></ScrollingText>
+      <OurStory></OurStory>
       <Divider />
       <ContactForm />
       <MapComponent />

@@ -4,7 +4,7 @@ export default {
   baseStyle: {
     stack: {
       w: '100%',
-      padding: { base: '16px 0 40px', lg: '72px 80px' },
+      padding: { base: '80px 0 40px', lg: '120px 80px' },
       gap: { base: '60px', lg: '120px' },
       flexDirection: { base: 'column', lg: 'row' },
     },
@@ -31,7 +31,8 @@ export default {
     mediaBox: {
       aspectRatio: '1/2',
       flex: { base: 'none', sm: '1 1 0' },
-      borderRadius: '160px',
+      //maxWidth: {base: '250px', lg: 'unset'},
+      //borderRadius: '160px',
       //bg: Colors.primary100,
       position: 'relative',
       //h: { base: '65vh', lg: 'unset' },
@@ -40,8 +41,9 @@ export default {
     image: {
       filter: 'grayscale(100%)',
       h: '100%',
+      aspectRatio: '4/5',
       objectFit: 'cover',
-      borderRadius: '160px',
+      borderRadius: '250px',
       transition: {lg: '.5s ease-in-out'},
 
       _hover: {
