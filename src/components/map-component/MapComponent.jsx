@@ -17,7 +17,7 @@ const MapComponent = () => {
       }).addTo(mapInstance.current)
 
       L.marker([36.870045310014056, 14.657563196964842]).addTo(mapInstance.current)
-        .bindPopup("<b>Poggio del Sole</b><br>Indirizzo: Strada Provinciale per Marina di Ragusa, km 5700, 97100 Ragusa (RG)")
+        .bindPopup("<b>Poggio del Sole</b><br><br>Strada Provinciale per Marina di Ragusa, km 5700, 97100 Ragusa (RG)")
         .openPopup()
     }
 

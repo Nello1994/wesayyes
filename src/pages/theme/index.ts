@@ -8,6 +8,9 @@ import fonts from './foundations/fonts'
 import Header from './components/header'
 import SaveTheDate from './components/save-the-date'
 import Divider from './components/divider'
+import OurStory from './components/our-story'
+import ContactForm from './components/contact-form'
+import ScrollingText from './components/scrolling-text'
 import Global from './global'
 
 const theme = extendTheme({
@@ -17,7 +20,10 @@ const theme = extendTheme({
     Global,
     Header,
     SaveTheDate,
+    OurStory,
     Divider,
+    ContactForm,
+    ScrollingText
   },
 })
 
