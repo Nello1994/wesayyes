@@ -1,14 +1,14 @@
 @font-face {
-    font-family: "ArsenicaTrial-Bold";
-    src: local("ArsenicaTrial-Bold"),
-        url("./fonts/ArsenicaTrial-Bold/ArsenicaTrial-Bold.ttf") format("ttf");
-}
-
-@font-face {
     font-family: 'Bacalisties';
     src: url('/fonts/Bacalisties.woff2') format('woff2'),
          url('/fonts/Bacalisties.woff') format('woff'),
          url('/fonts/Bacalisties.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-  }
+}
+
+
+@font-face {
+    font-family: 'Komika Text';
+    src: url('./Komika-Text/KOMTXT__.ttf') format('truetype');
+}
