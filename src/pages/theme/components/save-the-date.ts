@@ -4,7 +4,7 @@ export default {
   baseStyle: {
     stack: {
       w: "100%",
-      padding: { base: "40px 0 40px", lg: "120px 80px" },
+      padding: { base: "40px 0 40px", lg: "80px 80px 120px" },
       gap: { base: "32px", lg: "120px" },
       flexDirection: { base: "column", lg: "row" },
     },
