@@ -26,7 +26,7 @@ const ContactForm = () => {
             <Text {...style.formText}>Partecipa</Text>
             <form
               style={{ width: "100%" }}
-              action='https://formsubmit.co/borrelli.nello94@gmail.com'
+              action='https://formsubmit.co/mara.borrelli@gmail.com'
               method='POST'
             >
               <input type='hidden' name='_captcha' value='false' />
@@ -81,7 +81,6 @@ const ContactForm = () => {
                   <Textarea
                     name='message'
                     placeholder='Indica qui eventuali intolleranze e/o allergie'
-                    required
                     style={{
                       width: "100%",
                       background: "white",
