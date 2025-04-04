@@ -13,14 +13,14 @@ import {
   Textarea,
 } from "@chakra-ui/react"
 
+// import Media
+import wallpaper from "../../assets/img/wallpaper-invite.jpg"
+
 const ContactForm = () => {
   const style = useMultiStyleConfig("ContactForm")
   return (
     <Box id='partecipa' {...style.outerBox}>
-      <Box
-        {...style.wallpaper}
-        backgroundImage={"src/assets/img/wallpaper-invite.jpg"}
-      >
+      <Box {...style.wallpaper} backgroundImage={wallpaper}>
         <Box {...style.formWrp}>
           <Box {...style.formBox}>
             <Text {...style.formText}>Partecipa</Text>

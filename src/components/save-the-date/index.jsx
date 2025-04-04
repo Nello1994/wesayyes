@@ -11,14 +11,19 @@ import {
   Image,
 } from "@chakra-ui/react"
 
+// Import Media
+import image1 from "../../assets/img/Save_the_Date_2.jpeg"
+import image2 from "../../assets/img/our_story.jpg"
+import image3 from "../../assets/img/Save_the_Date_1.jpeg"
+
 const SaveTheDate = () => {
   const style = useMultiStyleConfig("SaveTheDate")
   const mediaBoxes = [1, 2, 3]
 
   const imageUrls = {
-    1: "src/assets/img/Save_the_Date_2.jpeg",
-    2: "src/assets/img/our_story.jpg",
-    3: "src/assets/img/Save_the_Date_1.jpeg",
+    1: image1,
+    2: image2,
+    3: image3,
   }
 
   return (
