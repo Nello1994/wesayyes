@@ -35,7 +35,7 @@ export default {
     mediaBox: {
       aspectRatio: "1/2",
       flex: { base: "none", sm: "1 1 0" },
-      maxWidth: { base: "300px", lg: "unset" },
+      maxWidth: { base: "230px", lg: "unset" },
       //borderRadius: '160px',
       //bg: Colors.primary100,
       position: "relative",
