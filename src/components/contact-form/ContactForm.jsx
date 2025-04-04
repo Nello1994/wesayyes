@@ -61,7 +61,7 @@ const ContactForm = () => {
                     style={{ padding: "16px", border: "1px solid" }}
                   />
                   <Select
-                    name='reason'
+                    name='Seleziona preferenza Menu'
                     placeholder='Seleziona preferenza Menu'
                     required
                     style={{ background: "white" }}
@@ -70,7 +70,7 @@ const ContactForm = () => {
                     <option value='Pesce'>Pesce</option>
                   </Select>
                   <Select
-                    name='reason'
+                    name='Hai intolleranze e/o allergie?'
                     placeholder='Hai intolleranze e/o allergie?'
                     required
                     style={{ background: "white" }}
@@ -79,9 +79,9 @@ const ContactForm = () => {
                     <option value='No'>No</option>
                   </Select>
                   <Textarea
-                    name='message'
+                    name='Intolleranze e/o allergie'
                     placeholder='Indica qui eventuali intolleranze e/o allergie'
-                    defaultValue=''
+                    defaultValue='No'
                     style={{
                       width: "100%",
                       background: "white",
