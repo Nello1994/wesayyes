@@ -2,7 +2,7 @@
     font-family: 'Bacalisties';
     src: url('/fonts/Bacalisties.woff2') format('woff2'),
          url('/fonts/Bacalisties.woff') format('woff'),
-         url('/fonts/Bacalisties.ttf') format('truetype');
+         url('./Bacalisties/Bacalisties.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
