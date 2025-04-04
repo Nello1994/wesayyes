@@ -81,6 +81,7 @@ const ContactForm = () => {
                   <Textarea
                     name='message'
                     placeholder='Indica qui eventuali intolleranze e/o allergie'
+                    defaultValue=''
                     style={{
                       width: "100%",
                       background: "white",
