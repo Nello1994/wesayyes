@@ -40,8 +40,8 @@ const ContactForm = () => {
                 <VStack {...style.inputWrp}>
                   <input
                     type='text'
-                    name='name'
-                    placeholder='Nome'
+                    name='Nome e Cognome/Famiglia'
+                    placeholder='Nome e Cognome/Famiglia'
                     required
                     style={{ padding: "16px", border: "1px solid" }}
                   />
