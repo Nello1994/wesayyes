@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Bacalisties';
-    src: url('./Bacalisties/Bacalisties.ttf') format('truetype');
+    src: url('/fonts/Bacalisties.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -8,5 +8,5 @@
 
 @font-face {
     font-family: 'Komika Text';
-    src: url('./Komika-Text/KOMTXT__.ttf') format('truetype');
+    src: url('/fonts/KOMTXT__.ttf') format('truetype');
 }
