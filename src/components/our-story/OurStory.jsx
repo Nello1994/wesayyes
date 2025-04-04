@@ -9,7 +9,12 @@ import {
   Image,
 } from "@chakra-ui/react"
 import PropTypes from "prop-types"
+
+//Import Media
 import videoSrc from "../../static/our_story.mp4"
+import flower from "../../assets/img/fiore-png.png"
+import bgFlowers from "../../assets/img/bg-flowers.jpg"
+import ourStory from "../../assets/img/ourstory_2.jpeg"
 
 const OurStory = () => {
   const style = useMultiStyleConfig("OurStory")
@@ -42,16 +47,8 @@ const OurStory = () => {
           di raccontare verità senza bisogno di parole. Di Mara, la dolcezza e
           la semplicità, l’eleganza naturale che la rendeva unica ai suoi occhi.
         </Text>
-        <Image
-          src='src/assets/img/fiore-png.png'
-          {...style.flowers1}
-          alt='our story image'
-        />
-        <Image
-          src='src/assets/img/fiore-png.png'
-          {...style.flowers2}
-          alt='our story image'
-        />
+        <Image src={flower} {...style.flowers1} alt='our story image' />
+        <Image src={flower} {...style.flowers2} alt='our story image' />
       </VStack>
       <Box {...style.videoWrp}>
         <video
@@ -76,16 +73,8 @@ const OurStory = () => {
 
       <Flex {...style.section}>
         <Box {...style.sectionImage}>
-          <Image
-            src='src/assets/img/bg-flowers.jpg'
-            alt='our story image'
-            {...style.image1}
-          />
-          <Image
-            src='src/assets/img/ourstory_2.jpeg'
-            alt='our story image'
-            {...style.image2}
-          />
+          <Image src={bgFlowers} alt='our story image' {...style.image1} />
+          <Image src={ourStory} alt='our story image' {...style.image2} />
         </Box>
 
         <Box {...style.text2}>
