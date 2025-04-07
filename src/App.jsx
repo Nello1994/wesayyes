@@ -15,7 +15,7 @@ function App() {
     <VStack {...styles.container}>
       <Router>
         <Routes>
-          <Route path='/wesayyes' element={<Home />} />
+          <Route path='/' element={<Home />} />
           <Route path='uikit' element={<UikitPage />} />
           <Route path='uikit/color' element={<ColorPage />} />
           <Route path='uikit/typography' element={<TypographyPage />} />
