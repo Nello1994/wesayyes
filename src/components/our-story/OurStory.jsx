@@ -36,16 +36,16 @@ const OurStory = () => {
 
         <Text {...style.paragraph} textAlign='center'>
           Davide, siciliano orgoglioso, dal carattere forte e libero. <br />
-          Mara, determinata ma timida, dolce e riservata. <br />
+          Mara, timida ma determinata, dolce e riservata. <br />
           <br /> Due anime opposte, due mondi lontani, con pensieri che
           viaggiavano in direzioni diverse, fino al giorno in cui il destino
           decise di farli incontrare.
         </Text>
 
         <Text {...style.paragraph} textAlign='center'>
-          Di Davide colpivano la solarità, il sorriso sincero, lo sguardo capace
+          Di Davide colpivan la solarità, il sorriso sincero, lo sguardo capace
           di raccontare verità senza bisogno di parole. Di Mara, la dolcezza e
-          la semplicità, l’eleganza naturale che la rendeva unica ai suoi occhi.
+          la semplicità, l’eleganza naturale che la rendeva unica.
         </Text>
         <Image src={flower} {...style.flowers1} alt='our story image' />
         <Image src={flower} {...style.flowers2} alt='our story image' />
