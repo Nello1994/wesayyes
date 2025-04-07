@@ -34,6 +34,7 @@ const MapComponent = () => {
         )
         .openPopup()
       mapInstance.current.scrollWheelZoom.disable()
+      mapInstance.current.dragging.disable()
     }
 
     return () => {
