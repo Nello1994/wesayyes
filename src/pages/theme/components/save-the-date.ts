@@ -1,4 +1,4 @@
-import { Typ, Colors } from "../utils"
+import { Typ } from "../utils"
 
 export default {
   baseStyle: {
@@ -30,18 +30,16 @@ export default {
       textAlign: "center",
       px: { base: "16px", lg: "0" },
       w: { lg: "25%" },
-      //order: { base: "2", lg: "unset" },
     },
     mediaBox: {
       aspectRatio: "1/2",
       flex: { base: "none", sm: "1 1 0" },
-      maxWidth: { base: "230px", lg: "unset" },
+      minWidth: { base: "230px", lg: "unset" },
       position: "relative",
       h: "auto",
     },
 
     image: {
-      //filter: "grayscale(100%)",
       filter: "sepia(60%) contrast(100%) brightness(95%) saturate(90%)",
       opacity: "0.9",
       mixBlendMode: "normal",
