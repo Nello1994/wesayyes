@@ -69,7 +69,11 @@ const ContactForm = () => {
                     name='Seleziona preferenza Menu'
                     placeholder='Seleziona preferenza Menu'
                     required
-                    style={{ background: "white", color: "#718096" }}
+                    style={{
+                      background: "white",
+                      color: "#718096",
+                      borderColor: "white",
+                    }}
                   >
                     <option value='Carne'>Carne</option>
                     <option value='Pesce'>Pesce</option>
@@ -78,7 +82,11 @@ const ContactForm = () => {
                     name='Hai intolleranze e/o allergie?'
                     placeholder='Hai intolleranze e/o allergie?'
                     required
-                    style={{ background: "white", color: "#718096" }}
+                    style={{
+                      background: "white",
+                      color: "#718096",
+                      borderColor: "white",
+                    }}
                     value={hasAllergies}
                     onChange={handleAllergiesChange}
                   >
