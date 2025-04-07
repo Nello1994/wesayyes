@@ -64,6 +64,7 @@ const OurStory = () => {
           loop
           muted
           playsInline
+          webkit-playsinline='true'
         >
           <source src={videoSrc} type='video/mp4' />
           {/* Fallback for unsupported browsers */}
