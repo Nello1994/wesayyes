@@ -26,6 +26,7 @@ const MapComponent = () => {
           "<b>Poggio del Sole</b><br><br>Strada Provinciale per Marina di Ragusa, km 5700, 97100 Ragusa (RG)"
         )
         .openPopup()
+      mapInstance.current.scrollWheelZoom.disable()
     }
 
     return () => {
