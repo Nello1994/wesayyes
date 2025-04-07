@@ -10,6 +10,13 @@ const MapComponent = () => {
 
   useEffect(() => {
     if (!mapInstance.current && mapRef.current) {
+      L.Icon.Default.mergeOptions({
+        iconUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png",
+        iconRetinaUrl:
+          "https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png",
+        shadowUrl:
+          "https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png",
+      })
       mapInstance.current = L.map(mapRef.current).setView(
         [36.870045310014056, 14.657563196964842],
         13
