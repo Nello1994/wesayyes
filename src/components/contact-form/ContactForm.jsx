@@ -49,21 +49,21 @@ const ContactForm = () => {
                     name='Nome e Cognome/Famiglia'
                     placeholder='Nome e Cognome/Famiglia'
                     required
-                    style={{ padding: "16px", borderRadius: "4px" }}
+                    style={{ padding: "8px 16px", borderRadius: "4px" }}
                   />
                   <input
                     type='email'
                     name='email'
                     placeholder='Email'
                     required
-                    style={{ padding: "16px", borderRadius: "4px" }}
+                    style={{ padding: "8px 16px", borderRadius: "4px" }}
                   />
                   <input
                     type='text'
                     name='partecipanti'
                     placeholder='Numero di partecipanti'
                     required
-                    style={{ padding: "16px", borderRadius: "4px" }}
+                    style={{ padding: "8px 16px", borderRadius: "4px" }}
                   />
                   <Select
                     name='Seleziona preferenza Menu'
