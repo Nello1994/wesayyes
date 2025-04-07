@@ -89,7 +89,7 @@ const ContactForm = () => {
                   {/* Condizione per mostrare la TextArea */}
                   {hasAllergies === "Sì" && (
                     <Textarea
-                      name='Intolleranze e/o allergie'
+                      name='Lista intolleranze e allergie'
                       placeholder='Indica qui eventuali intolleranze e/o allergie'
                       style={{
                         width: "100%",
