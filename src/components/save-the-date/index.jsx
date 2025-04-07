@@ -1,4 +1,4 @@
-import React /* , { useState, useEffect } */ from "react"
+import React, { useState, useEffect, useRef } from "react"
 import PropTypes from "prop-types"
 
 // Components
@@ -26,8 +26,19 @@ const SaveTheDate = () => {
     3: image3,
   }
 
+  const mediaBoxRef = useRef(null)
+
+  const [mediaBoxHeight, setMediaBoxHeight] = useState(0)
+
+  useEffect(() => {
+    if (mediaBoxRef.current) {
+      const width = mediaBoxRef.current.offsetWidth
+      setMediaBoxHeight(width * 2)
+    }
+  }, [])
+
   return (
-    <HStack {...style.stack} /* height={stackHeight} */>
+    <HStack {...style.stack}>
       <Box {...style.textWrp}>
         <Text {...style.title}>Save the date</Text>
         <Box display={{ base: "none", lg: "block" }}>
@@ -46,7 +57,12 @@ const SaveTheDate = () => {
         css={{ "&::-webkit-scrollbar": { display: "none" } }}
       >
         {mediaBoxes.map((item) => (
-          <Box key={item} {...style.mediaBox}>
+          <Box
+            key={item}
+            {...style.mediaBox}
+            ref={mediaBoxRef}
+            height={mediaBoxHeight}
+          >
             <Image
               src={imageUrls[item]}
               alt={`image-${item}`}
