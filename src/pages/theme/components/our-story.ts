@@ -4,11 +4,9 @@ export default {
   baseStyle: {
     mainContainer: {
       h: { base: "100%" },
-      /* flexDirection: {base: 'column', lg: 'row'}, */
       gap: { base: "0" },
     },
     textWrp: {
-      //flex: "0 0 50%",
       backgroundColor: "#FFEEBB",
       w: "100%",
       padding: { base: "40px" },

@@ -36,10 +36,8 @@ export default {
       aspectRatio: "1/2",
       flex: { base: "none", sm: "1 1 0" },
       maxWidth: { base: "230px", lg: "unset" },
-      //borderRadius: '160px',
-      //bg: Colors.primary100,
+      minHeight: { base: "61.3vw", lg: "unset" },
       position: "relative",
-      //h: { base: '65vh', lg: 'unset' },
     },
 
     image: {
@@ -48,7 +46,7 @@ export default {
       opacity: "0.9",
       mixBlendMode: "normal",
       h: "100%",
-      aspectRatio: "4/5",
+      aspectRatio: "1/2",
       objectFit: "cover",
       borderRadius: "250px",
       transition: { lg: ".5s ease-in-out" },
