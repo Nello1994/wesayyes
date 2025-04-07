@@ -33,6 +33,7 @@ export default {
       display: "flex",
       flex: "0 0 auto",
       order: { base: "2", lg: "unset" },
+      pl: { base: "24px", lg: "0" },
     },
 
     section: {

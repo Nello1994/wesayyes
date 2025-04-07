@@ -10,7 +10,7 @@ export default {
       p: { base: "40px 24px", lg: "40px" },
       backgroundRepeat: "no-repeat",
       backgroundSize: "cover",
-      mt: { base: "64px", lg: "120px" },
+      mt: { base: "17vw", lg: "120px" },
     },
     formBox: {
       w: "100%",
