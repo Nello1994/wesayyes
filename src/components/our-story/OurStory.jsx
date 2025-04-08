@@ -43,7 +43,7 @@ const OurStory = () => {
         </Text>
 
         <Text {...style.paragraph} textAlign='center'>
-          Di Davide colpivan la solarità, il sorriso sincero, lo sguardo capace
+          Di Davide colpiva la solarità, il sorriso sincero, lo sguardo capace
           di raccontare verità senza bisogno di parole. Di Mara, la dolcezza e
           la semplicità, l’eleganza naturale che la rendeva unica.
         </Text>
