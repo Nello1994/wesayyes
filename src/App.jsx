@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import UikitPage from "./uikit"
 import ColorPage from "./uikit/pages/color"
 import TypographyPage from "./uikit/pages/typography"
-import Global from "./pages/theme/global"
 
 function App() {
   const styles = useMultiStyleConfig("Global")

@@ -20,13 +20,6 @@ const Menu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   const isMobile = useBreakpointValue({ base: true, lg: false })
 
-  const menuItems = [
-    { label: "La nostra storia", href: "#storia" },
-    // { label: "Cerimonia", href: "#cerimonia" },
-    /* { label: "Il nostro viaggio", href: "#viaggio" }, */
-    { label: "Partecipa", href: "#partecipa" },
-  ]
-
   return (
     <>
       {isMobile ? (

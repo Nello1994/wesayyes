@@ -41,6 +41,10 @@ export default {
       color: "white",
     },
 
+    labelText: {
+      color: "white",
+    },
+
     formButton: {
       width: "100%",
       mt: "32px",
