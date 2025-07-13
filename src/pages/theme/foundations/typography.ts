@@ -94,6 +94,13 @@ const typography = {
     lineHeight: { base: "32px" },
   },
 
+  iban: {
+    fontFamily: "Cabin",
+    fontSize: { base: "14px", lg: "18px" },
+    fontWeight: 400,
+    lineHeight: { base: "24px", lg: "32px" },
+  },
+
   custom_medium: {
     fontFamily: "Bacalisties",
     fontSize: { base: "18px" },

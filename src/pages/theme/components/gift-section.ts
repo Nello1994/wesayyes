@@ -20,13 +20,18 @@ export default {
     },
 
     title: {
-      mb: { base: "16px", lg: "0" },
+      mb: { base: "16px" },
       ...Typ.komika,
       lineHeight: { base: "32px", lg: "" },
     },
 
     paragraph: {
       ...Typ.body_light,
+      maxW: "760px",
+    },
+
+    iban: {
+      ...Typ.iban,
       maxW: "760px",
     },
 

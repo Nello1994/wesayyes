@@ -21,10 +21,10 @@ const GiftSection = () => {
           inizio con un piccolo pensiero:
         </Text>
 
-        <Text {...style.paragraph} textAlign='center'>
+        <Text {...style.iban} textAlign='center'>
           <b>IBAN:</b> IT62H0200809500000430487508
         </Text>
-        <Text {...style.paragraph} textAlign='center'>
+        <Text {...style.iban} textAlign='center'>
           <b>Intestato a</b>: MARIA BORRELLI
         </Text>
         <Text {...style.paragraph} textAlign='center'>
