@@ -18,9 +18,8 @@ const Header = (props) => {
 
   let menuItems = [
     { label: "La nostra storia", href: "#storia" },
-    //{ label: "Cerimonia", href: "#cerimonia" },
-    /* { label: 'Il nostro viaggio', href: '#viaggio' }, */
     { label: "Partecipa", href: "#partecipa" },
+    { label: "Regali", href: "#regali" },
   ]
 
   return (

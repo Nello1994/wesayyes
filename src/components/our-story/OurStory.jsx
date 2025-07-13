@@ -5,7 +5,6 @@ import {
   VStack,
   Flex,
   Text,
-  Highlight,
   Image,
 } from "@chakra-ui/react"
 import PropTypes from "prop-types"

@@ -3,7 +3,7 @@ import SaveTheDate from "../components/save-the-date/index"
 import ContactForm from "../components/contact-form/ContactForm"
 import MapComponent from "../components/map-component/MapComponent"
 import OurStory from "../components/our-story/OurStory"
-
+import GiftSection from "../components/gift-section/GiftSection"
 import { Box } from "@chakra-ui/react"
 import { useEffect, useState } from "react"
 
@@ -38,11 +38,12 @@ const Home = (props) => {
       <SaveTheDate />
       <OurStory></OurStory>
       <ContactForm />
+      <GiftSection />
       <MapComponent />
     </Box>
   )
 }
 
-Home.PropTypes = {}
+Home.propTypes = {}
 
 export default Home

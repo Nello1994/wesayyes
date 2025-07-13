@@ -8,6 +8,7 @@ const MenuItems = ({ handleOnClick }) => {
   const menuItems = [
     { label: "La nostra storia", href: "#storia" },
     { label: "Partecipa", href: "#partecipa" },
+    { label: "Regali", href: "#regali" },
   ]
 
   return (

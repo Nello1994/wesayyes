@@ -8,6 +8,7 @@ import fonts from "./foundations/fonts"
 import Header from "./components/header"
 import SaveTheDate from "./components/save-the-date"
 import Divider from "./components/divider"
+import GiftSection from "./components/gift-section"
 import OurStory from "./components/our-story"
 import ContactForm from "./components/contact-form"
 import Global from "./global"
@@ -22,6 +23,7 @@ const theme = extendTheme({
     OurStory,
     Divider,
     ContactForm,
+    GiftSection,
   },
 })
 
